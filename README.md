@@ -7,7 +7,7 @@ These parameters are just an example. In general, they depend on the dataset use
 ```
 mkdir build
 
-make build PARAMS="-DDEF_NUM_STR=7 -DDEF_NUM_HASH=16 -DDEF_NUM_BITS=12 -DDEF_NUM_CHAR=4 -DDEF_K_INPUT=150 -DDEF_SHIFT=50"
+make build PARAMS="-DDEF_NUM_STR=5 -DDEF_NUM_HASH=7 -DDEF_NUM_BITS=12 -DDEF_NUM_CHAR=4 -DDEF_K_INPUT=6 -DDEF_SHIFT=6"
 
 ./onejoin --read dataset_name --device 0 --samplingrange 5000 --countfilter 1 --batch_size 10000
 ```
@@ -16,7 +16,7 @@ make build PARAMS="-DDEF_NUM_STR=7 -DDEF_NUM_HASH=16 -DDEF_NUM_BITS=12 -DDEF_NUM
 ### Update constants:
 
 ```
-make update PARAMS="-DDEF_NUM_STR=7 -DDEF_NUM_HASH=16 -DDEF_NUM_BITS=12 -DDEF_NUM_CHAR=4 -DDEF_K_INPUT=150 -DDEF_SHIFT=50"
+make update PARAMS="-DDEF_NUM_STR=5 -DDEF_NUM_HASH=7 -DDEF_NUM_BITS=12 -DDEF_NUM_CHAR=4 -DDEF_K_INPUT=6 -DDEF_SHIFT=6"
 ```
 
 
