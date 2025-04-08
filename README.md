@@ -1,4 +1,5 @@
 # Oneoligo Project
+Edit Similarity Join implementation using DPC++ and Intel oneAPI toolkit
 
 ### Usage: 
 
